@@ -1,10 +1,4 @@
-interface Person {
-  name: string;
-  phone?: number;
-  city: string;
-  country: string;
-}
-
+import { Person } from "../interfaces";
 interface getPersonArgs {
   name: string;
 }

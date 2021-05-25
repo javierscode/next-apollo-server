@@ -1,9 +1,9 @@
+import PersonList from "../components/PersonList";
 
 const IndexPage = () => (
   <div >
     <h1>Hello Next.js 👋</h1>
-    <p>
-    </p>
+    <PersonList/>
   </div>
 )
 
